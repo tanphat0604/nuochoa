@@ -1,0 +1,401 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+ width: 100%;
+ 
+ min-height: 100px;
+ margin-bottom: 5px;
+}
+.headright{
+    float: right;
+    width: 10%;
+}
+.headright>a{
+color: black;
+
+}
+.logo{
+    width: 10%;
+     margin-top: 5px;
+     margin-left: 10%;
+     float: left;
+     cursor: pointer;
+}
+
+.timkiem{
+    float: left;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 30%;
+    padding: 16px;
+    border: 1px solid #000000;
+}
+.header>i{
+    border-radius: 1px solid #1142cf;
+    color: white;
+     float: left;
+     margin-top: 30px;
+     padding: 15px;
+     width: 25px;
+    font-size: 20px;
+    background: black;
+}
+.header>i:hover{
+    cursor: pointer;
+}
+
+.header>span{
+    float: left;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:orange;
+}
+.hotline{
+    margin-top: 27px;
+    float: left;
+    margin-left: 50px;
+}
+.slug{
+    width: 10%;
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.container{
+    width: 1200px;
+    min-height: 500px;
+    margin: auto;
+    background: white;
+    margin-bottom: 100px;
+}
+
+.dropmenu{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    border-radius: 1px solid #1142cf;
+}
+
+.dropmenu>button{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    width: 229px;
+    height: 50px;
+    border-bottom: 1px solid #1142cf;
+    border-left: 1px solid #1142cf;
+    border-right: 1px solid #040a1f;
+    background:  linear-gradient(0,#1147d0,#028ee3);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.dropmenu>ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+.dropmenu>ul>li{
+    list-style: none;
+}
+.dropmenu>ul>li>a{
+    display: block;
+    background: white;
+    padding: 16px;
+    border-bottom: 1px solid #424244;
+    border-left: 1px solid #1142cf;
+    border-right: 1px solid #1142cf;
+    text-decoration: none;
+}
+.dropmenu>ul>li>a:hover{
+    background: #1147d0;
+    color: white;
+}
+.dropmenu>ul>li>a>img{
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    
+}
+.dropmenu>ul>li>a>span{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  black ;
+}
+.dropmenu>ul>li>a>span:hover{
+    color: blue;
+}
+
+
+.menu{
+    width: 100%;
+    background:  #09080B;
+        height: 50px;
+        float: left;
+
+}
+.menu ul{
+    margin: 0;
+    padding: 0; 
+    display: inline;
+    list-style: none;
+    color: white;
+}
+
+.menu ul li a{
+    
+    float: left;
+    line-height: 30px;
+    margin-right: 24px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .menu ul li a img{
+    float: left;
+        margin-right: 5px;
+    }
+.slide{
+    position: relative;
+
+    float: left;
+    width:100%;
+    min-height: 489px;
+   
+}
+.slide img{
+    width: 100%;
+    height: 489px;
+    float: fixed
+}
+
+.slide #prev{
+    position: absolute;
+    font-size: 50px;
+    color: blue;
+    top: 200px;
+    cursor: pointer;
+    left:20px
+
+}
+.slide #next{
+    position: absolute;
+    font-size: 50px;
+    color: blue;
+    top: 200px;
+    cursor: pointer;
+    right: 20px;
+}
+
+.slide #prev:hover{
+    color: brown;
+}
+
+.slide #next:hover{
+    color: brown;
+}
+
+.three-img{
+    background: white;
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-top: 20px;
+}
+
+
+.three-img img{
+    font: 14px Arial,Helvetica,sans-serif;
+    color: #515151;
+    margin-left: 30px;
+    padding: 0;
+    border: 0;
+    max-width: 30%;
+    float: left;
+    display: block;
+    cursor: pointer;
+
+}
+.three-img img:hover{
+    transition: all 500ms ease;
+    font: 14px Arial,Helvetica,sans-serif;
+    color: #515151;
+    max-width: 31%;
+    float: left;
+    display: block;
+}
+
+.hr{
+    width: 100%;
+    height: 50px;
+    float: left;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+.hr ul li{
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #288ad6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hr p {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nhucau{
+    width: 100%;
+    height: 140px;
+    background: white;
+    float: left;
+    border-bottom: 2px solid #eee;
+}
+.nhucau p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nhucau ul li {
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 20px;
+}
+
+.nhucau ul li img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.nhucau ul li span{
+    font-size: 14px;
+     display: block;
+   font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.deal{
+    width: 100%;
+    max-height: 100px;
+    background: white;
+    text-align: center;
+    margin: 2%;
+}
+
+.deal span{
+    color: #555555;
+    font-size: 25px;
+   
+}
+
+.dealsp{
+    border-bottom: 2px solid #eee;
+    border-top: 2px solid #eee;
+    width: 100%;
+    max-height: 1000px;
+    background: white;
+    float: left;
+}
+.dealsp .box{
+    float: left;
+    width: 25%;
+    height: 290px;
+    background: white;
+    box-sizing: border-box;
+    border: 2px solid #eee;
+    cursor: pointer;
+}
+.dealsp .box:hover .name a p{
+   color: blue;
+}
+.box img{
+    width: 80%;
+    max-height: 70%;
+    padding-left: 30px;
+}
+
+.name a p {
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name a p:hover{
+    color: blue;
+}
+.price p{
+    color: red;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price del{
+    float: left;
+    margin-left: 5px;
+    font-size: 10px;
+    color: rosybrown;
+}
+
+.footer{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background:black;   
+}
+.inner-footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 20%;
+}
+
+.footer-third{
+    width: calc(21.6666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+.footer-third:last-child{
+    margin-right: 0;
+}
+.footer-third h1{
+    font-family: arial;
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footer-third a{
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+.footer-third a:hover{
+    color: aqua;
+}
+.footer-third i{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+.footer-third i:hover{
+    color: aqua;
+}
