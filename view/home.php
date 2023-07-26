@@ -91,8 +91,7 @@
       </ul>
     </div>
     <div class="deal">
-      <
-    <span> Sản phẩm bán chạy</span>
+      
         
     </div>
     <div class="dealsp">
